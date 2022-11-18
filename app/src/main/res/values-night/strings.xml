@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exemplo_NomeLoja">Lancheria Dona Ju</string>
+    <string name="loja_VerCardapio">Ver cardápio...</string>
+    <string name="exemplo_endereco_loja"><![CDATA[Av. Itamarati, 160 - Itacorubi - Florianópolis SC<br>CEP 88034-900]]></string>
+    <string name="base_url" >http://10.0.2.2:8080/</string>
+</resources>

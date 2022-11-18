@@ -1,0 +1,47 @@
+  {
+  "project_info": {
+    "project_number": "27781519384",
+    "project_id": "fiap-2022-grupob-fase2",
+    "storage_bucket": "fiap-2022-grupob-fase2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27781519384:android:20e3e35f2d2664a1bc4b6d",
+        "android_client_info": {
+          "package_name": "br.com.fiap.isgood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27781519384-hs83dg6k1jkgpuuoraiasqortqic4mpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.fiap.isgood",
+            "certificate_hash": "572251c025a6bbafa5bf5d3235f31e2e6fd5a2c6"
+          }
+        },
+        {
+          "client_id": "27781519384-1i6d2t7nu4tr54crm7pvdd5b29322b96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR_KvIYiRyXqi8xsTD0tJqLZwDtIbn6bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27781519384-1i6d2t7nu4tr54crm7pvdd5b29322b96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

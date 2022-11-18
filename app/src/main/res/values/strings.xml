@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">IsGood</string>
+    <string name="menu_close">close</string>
+    <string name="menu_open">open</string>
+    <string name="exemplo_NomeLoja">Lancheria Dona Ju</string>
+    <string name="loja_VerCardapio">Ver cardápio...</string>
+    <string name="exemplo_endereco_loja"><![CDATA[Av. Itamarati, 160 - Itacorubi - Florianópolis SC\nCEP 88034-900]]></string>
+    <string name="title_activity_localizacao_loja">LocalizacaoLojaActivity</string>
+   <!--
+    A base_url deve conter o IP do host que está rodando o spring.
+    Não funciona deixar "localhost" pois o emulador e o celular conectado vão direcionar errado.
+    Em desenvolvimento, o melhor é colocar o IP da máquina mesmo.
+    Em produção, substituir pela URL da api.
+    Para rodar com emulador do AndroidStudio, é possível manter como IP 10.0.2.2
+
+    Exemplo:
+       <string name="base_url" >http://10.0.2.2:8080/</string>
+    -->
+    <string name="base_url" >http://192.168.15.16:8080/</string> <!-- Para desenvolvimento -->
+<!-- <string name="base_url" >http://api.isgood.com.br/</string> <! - Para Produção -->
+</resources>

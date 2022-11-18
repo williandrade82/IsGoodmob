@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimaryDark"
+    android:padding="10dp"
+    tools:context=".activities.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLoginPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <ImageView
+                android:id="@+id/login_logo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/isgood_log_jpg" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="E-mail"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:inputType="textEmailAddress"
+                android:lines="1"
+                android:maxWidth="350dp" />
+
+            <TextView
+                android:id="@+id/textViewSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Senha"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:inputType="textPassword"
+                android:maxWidth="350dp" />
+
+            <CheckBox
+                android:id="@+id/cbLembrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lembrar de mim" />
+
+            <TextView
+                android:id="@+id/textViewLoginCriarConta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Criar nova conta"
+                android:textColorLink="@color/black" />
+
+
+            <TextView
+                android:id="@+id/tvEsqueciMinhaSenha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Esqueci minha senha"
+                android:visibility="invisible" />
+            <!-- Invisivel por enquanto -->
+
+            <Button
+                android:id="@+id/btLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:width="200dp"
+                android:height="60dp"
+                android:text="Entrar" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
